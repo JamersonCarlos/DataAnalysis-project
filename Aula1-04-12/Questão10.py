@@ -18,7 +18,7 @@ while endPoint != 0:
     diasAtraso = int(input("Dias Atrasados: "))
     totalPrestAtrasados += valorPagamento(valorAtrasado, diasAtraso)
 
-print(f"Total de Valor Atrasado R${totalPrestAtrasados}")
+print("Total de Valor Atrasado R$%.2f" %(totalPrestAtrasados))
 
 
 
