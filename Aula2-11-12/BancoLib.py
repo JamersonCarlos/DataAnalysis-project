@@ -7,7 +7,7 @@ class Conta():
         self.saldo = 0
 
     def deposite(self, valor):
-        self.saldo = self.saldo + (valor - valor*0.001)
+        self.saldo += (valor - valor*0.001)
 
     def sacar(self, valor):
         if self.saldo >= valor:
